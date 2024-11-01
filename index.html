@@ -10,18 +10,22 @@
 
 <body>
     <header>
-        <nav id="navbar">
+        <nav id="nav" class="navbar">
             <img class="logo" src="./images/logo-svg.svg">
-            <ul id="nav-list">
+            <ul class="nav-list">
                 <li><a href="">Home</a></li>
                 <li><a href="">For Entrepreneurs<img class="vi" src="./images/vector-nav.svg" alt="Icon"></a></li>
                 <li><a href="">For Start Up<img class="vi" src="./images/vector-nav.svg" alt="Icon"></a></li>
                 <li><a href="">Examination<img class="vi" src="./images/vector-nav.svg" alt="Icon"></a></li>
                 <li><a href="">About Us<img class="vi" src="./images/vector-nav.svg" alt="Icon"></a></li>
-                <li><button>Sign In</button></li>
-                <li><button>Sign Up</button></li>
+                <li><button class="auth-buttons">Sign In</button></li>
+                <li><button class="auth-buttons">Sign Up</button></li>
             </ul>
-
+            <div data-menu="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
     </header>
     <section id="section1">
@@ -254,6 +258,15 @@
 
             </div>
     </footer>
+
+    <script>
+        const hamburger = document.querySelector('[data-menu]');
+        const nav = document.getElementById('nav');
+
+        hamburger.addEventListener('click', () => {
+            nav.classList.toggle('show-nav');
+        });
+    </script>
 
 </body>
 

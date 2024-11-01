@@ -2,7 +2,7 @@ Objective : To translate design to pixel perfect & responsive webpage across all
 
 Figma link :
 
-https://www.figma.com/design/R8AV6hYYxKXocSvBNfG4v2/Internship-Assignment-Codepanther?node-id=0-1&t=u8COyUSWacCkG424-1
+https://www.figma.com/design/1f9jHGzfOdFvIbYSJAdXj1/Design-4?node-id=0-1&t=3dhZ778GSYb3DZhC-1
 
 functional web page :
 
